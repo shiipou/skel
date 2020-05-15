@@ -1,0 +1,6 @@
+.ssh/
+.viminfo
+.zsh_history
+.bash_history
+.sudo_as_admin_successful
+

@@ -1,0 +1,2 @@
+2.0
+{"\"": [[":call dein#add('Shougo/vimproc.vim', {'build' : 'make'})\n", "V"]]}
