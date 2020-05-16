@@ -16,7 +16,7 @@ curl -sLf https://spacevim.org/install.sh | bash -s -- --install neovim
 
 ```sh
 git clone https://github.com/shiipou/skel.git
-mv skel/{*,.} .
+mv skel/{*,.*} ~/.
 ```
 
 ## Launch vim
