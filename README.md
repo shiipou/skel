@@ -5,11 +5,13 @@ My bash default User directory for new linux os install
 
 ## Requirements
 
-You need to install zsh, neovim, and spacevim.
+You need to install zsh, oh-my-zsh, neovim, and spacevim.
 
 ```sh
 sudo apt install -y neovim zsh build-essential
 curl -sLf https://spacevim.org/install.sh | bash -s -- --install neovim
+curl -sSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh | bash"
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
 ## Get repository content into user dir
