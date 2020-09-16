@@ -22,8 +22,9 @@
     buffer_index_type = 4
     windows_index_type = 2
     enable_tabline_filetype_icon = true
-    enable_statusline_mode = true
+    enable_statusline_mode = false
     guifont = "FuraCode Nerd Font:h11"
+#filemanager = 'nerdtree'
     filetree_direction = "left"
     enable_neomake = true
     enable_ale = true
@@ -70,4 +71,28 @@ merged = false
 [[custom_plugins]]
 name = "lilydjwg/colorizer"
 on_cmd = ["ColorHighlight", "ColorToggle"]
+merged = false
+
+[[custom_plugins]]
+name = 'Xuyuanp/nerdtree-git-plugin'
+merged = false
+
+[[custom_plugins]]
+name = 'tiagofumo/vim-nerdtree-syntax-highlight'
+merged = false
+
+[[custom_plugins]]
+name = 'ryanoasis/vim-devicons'
+merged = false
+
+[[custom_plugins]]
+name = 'airblade/vim-gitgutter'
+merged = false
+
+[[custom_plugins]]
+name = 'scrooloose/nerdcommenter'
+merged = false
+
+[[custom_plugins]]
+name = 'ollykel/v-vim'
 merged = false
